@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="COMP123_S2016_Lesson5_Latest.Deck">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAIAAAAEAA=</HashCode>
+      <FileName>Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMP123_S2016_Lesson5_Latest.Card">
+    <Position X="1" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMP123_S2016_Lesson5_Latest.Program" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="COMP123_S2016_Lesson5_Latest.Suits" Collapsed="true">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Suit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMP123_S2016_Lesson5_Latest.Faces" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
+      <FileName>Face.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Meiryo" Size="9" />
+</ClassDiagram>

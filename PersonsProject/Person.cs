@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PersonProject
 {
-    public class Person
+    public abstract class Person
     {
         private int _age;
         private string _name;

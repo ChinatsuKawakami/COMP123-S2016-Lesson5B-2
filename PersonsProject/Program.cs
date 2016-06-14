@@ -10,6 +10,11 @@ namespace PersonProject
     {
         static void Main(string[] args)
         {
+          //  Person newPerson = new Person(); abstract class can not create interface
+            Student tommy = new Student(20, "tommy", "A123456");
+
+            Console.WriteLine(tommy.ToString()); //ToString is method should include ()
+
         }
     }
 }

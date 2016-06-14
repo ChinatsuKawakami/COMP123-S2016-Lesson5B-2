@@ -7,20 +7,29 @@ namespace PersonProject
 {
     public class Teacher : Person
     {
-        public int EmployeeNumber
+        private string _employeeNumber;
+
+        public Teacher(int age, string name, string employeeNumber)
+            :base(age,name)
+        {
+            this.EmployeeNumber = employeeNumber;
+        }
+
+        public string EmployeeNumber
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._employeeNumber;
             }
             set
             {
+                this._employeeNumber = value;
             }
         }
 
         public void Teach()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("{0} is teaching.",this.Name);
         }
     }
 }

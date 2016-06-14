@@ -31,5 +31,11 @@ namespace PersonProject
         {
             Console.WriteLine("{0} is studying.",this.Name);
         }
+        public override string ToString()
+        {
+            return String.Format("++++++++++++++++++++++++++++++\n+ Name : {0} \n+ Age: {1}\n+ Student Number : {2}\n++++++++++++++++++++++++++++\n",
+                                    this.Name,this.Age,this.StudentNumber);
+            
+        }
     }
 }

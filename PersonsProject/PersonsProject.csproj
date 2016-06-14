@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{133D3E44-A546-4E0F-841A-9B06AB510898}</ProjectGuid>
+    <ProjectGuid>{0F71B9DF-4BF4-4553-8392-CED3B2D99669}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>COMP123_S2016_Lesson5_Latest</RootNamespace>
-    <AssemblyName>COMP123-S2016-CKawakami-300821245-Lab3</AssemblyName>
+    <RootNamespace>PersonProject</RootNamespace>
+    <AssemblyName>PersonsProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,18 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Face.cs" />
-    <Compile Include="PlayerStates.cs" />
+    <Compile Include="DomesticStudent.cs" />
+    <Compile Include="InternationalStudent.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SceneStates.cs" />
-    <Compile Include="Suit.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="COMP123-S2016-Lesson5ClassDiagram.cd" />
+    <None Include="PersonClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
